@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.w50 a img{
+    width: 5%;
+    height: 5%;
+}
+
+.w50{
+    width: 50%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    background-color:rgb(165, 103, 67);
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    gap:50px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.container{
+    padding: 1% 7% 0% 12%;
+}
+
+.product-link{
+    display:inline-block;
+    text-decoration: none; /*remove a linha embaixo*/
+    color: black;
+    border: 1px solid;
+}
+
